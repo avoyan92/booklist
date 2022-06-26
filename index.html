@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+	<div class="modal-window close" id="modal">
+		
+			<input type="text" id="window-title"/>
+			<input type="text" id="window-author"/>
+			<input type="text" id="window-isbn"/>
+			<button id="save">Save</button>
+		
+	</div>
+    <div class="container">
+        <div class="container-inputs">
+            <h1>MY BOOK LIST</h1>
+			<h4>Title</h4>
+			<input type="text" id="title"/>
+			<h4>Author</h4>
+			<input type="text" id="author"/>
+			<h4>ISBN#</h4>
+			<input type="text" id="isbn" />
+			<button id="add">ADD-BOoCK</button>
+        </div>
+        <div class="book">
+			<div class="table-texts">
+				<h3>Title</h3>
+				<h3 class="con">Author</h3>
+				<h3 class="con1">ISBN#</h3>
+			</div>
+			<ul class="book-lists" draggable="true">
+				
+			</ul>
+		</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
